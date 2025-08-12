@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title> Space Tourism </title>
+            <link rel="icon" href="./assets/favicon-32x32.png">
+            <link rel="stylesheet" href="styles.css">
+            <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+        </head>
+        <body id="crew">
+            <div class="overall">
+                <div class="container">
+                    <div class="logo-container">
+                        <img id="logo" src="./assets/shared/logo.svg" alt="Space Tourism Logo" />
+                        <div class="line"></div>
+                    </div>
+                    <span class="menu-toggle" onclick="toggleMenu()" id="menuIcon">☰</span>
+                        <nav id="navMenu">
+                            <span class="close-btn" onclick="toggleMenu()">✖</span>
+                            <div class="nav-links">
+                                <a href="home.html" class="navlink">00 HOME </a>
+                                <a href="destination.html" class="navlink">01 DESTINATION</a>
+                                <a href="crew.html" class="navlink">02 CREW</a>
+                                <a href="technology.html" class="navlink">03 TECHNOLOGY</a>
+                            </div>
+                        </nav>                     
+                </div>
+                <div class="box-1">
+                    <div id="why">
+                        <div id="top-left"> <p id="pc1"> 02 </p> 
+                        <p id="pc2"> MEET YOUR CREW </p>
+                        </div> 
+                        <div id="box-14">
+                            <p id="commander"> COMMANDER </p>
+                            <h1 id="Name"> DOUGLAS HURLEY </h1>
+                            <p id="bio"> Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2. </p>
+                            <div id="buttonbox">
+                                <button class="dp" onclick="showCrew(0, this)"></button>
+                                <button class="dp" onclick="showCrew(1, this)"></button>
+                                <button class="dp" onclick="showCrew(2, this)"></button>
+                                <button class="dp" onclick="showCrew(3, this)"></button>
+                            </div>
+                        </div>
+                        <div id="box-15">
+                            <img id="pic" src="./assets/crew/image-douglas-hurley.png" alt="Douglas Hurley"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>

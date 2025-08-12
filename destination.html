@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title> Space Tourism </title>
+            <link rel="icon" href="./assets/favicon-32x32.png">
+            <link rel="stylesheet" href="styles.css">
+            <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+        </head>
+        <body id="destination">
+            <div class="overall">
+                <div class="container">
+                    <div class="logo-container">
+                        <img id="logo" src="./assets/shared/logo.svg" alt="Space Tourism Logo" />
+                        <div class="line"></div>
+                    </div>           
+                        <span class="menu-toggle" onclick="toggleMenu()" id="menuIcon">☰</span>
+                        <nav id="navMenu">
+                            <span class="close-btn" onclick="toggleMenu()">✖</span>
+                            <div class="nav-links">
+                                <a href="home.html" class="navlink">00 HOME </a>
+                                <a href="destination.html" class="navlink">01 DESTINATION</a>
+                                <a href="crew.html" class="navlink">02 CREW</a>
+                                <a href="technology.html" class="navlink">03 TECHNOLOGY</a>
+                            </div>
+                        </nav>                   
+                </div>
+                <div class="box-1">
+                    <div class="box-6">
+                        <div id="box-7"> <p id="abc"> 01 </p> 
+                            <p id="def"> PICK YOUR DESTINATION </p>
+                        </div>
+                        <div id="box-8">
+                            <img id="planetmoon" src="./assets/destination/image-moon.png" alt="Moon"/>
+                        </div>
+                        <div id="box-9">
+                            <div id="box-10"><p class="click" onclick="showContent(0)">MOON</p> 
+                                <p class="click" onclick="showContent(1)">MARS</p> 
+                                <p class="click" onclick="showContent(2)">EUROPA</p> 
+                                <p class="click" onclick="showContent(3)">TITAN</p>
+                            </div>
+                            <div id="box-11"><h1 id="title"> MOON</h1></div>
+                            <div id="box-12"><p id="moontext"> See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there,  take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p></div>
+                            <div class="horizontal-line"></div>
+                            <div id="box-13">
+                                <div class="same1"> 
+                                    <p id="avgdistance"> AVG. DISTANCE </p>
+                                    <p id="avgdistancevalue"> 384,400 KM </p> </div>
+                                <div class="same2"> <p id="esttraveltime"> EST. TRAVEL TIME </p>
+                                    <p id="esttraveltimevalue"> 3 DAYS </p> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>
