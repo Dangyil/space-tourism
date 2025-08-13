@@ -1663,7 +1663,7 @@ body, html {
     width: 87.2vw;
     height: 36.2vh;
     border: 1px solid green;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
     padding: 5px;
