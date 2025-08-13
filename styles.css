@@ -1375,7 +1375,7 @@ body, html {
 .container {
     border: none;
     width: 100vw;
-    height: 4rem;
+    height: 3rem;
     align-items: center;
     justify-content: center;
     border: 1px solid yellow;
