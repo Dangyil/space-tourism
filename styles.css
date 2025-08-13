@@ -1378,12 +1378,13 @@ body, html {
     height: 4.3rem;
     align-items: center;
     justify-content: center;
+    border: 1px solid yellow;
 }
 .logo-container {
     width: 11.6rem;
     height: 1.9rem;
     position: absolute;
-    top: 0.9rem;
+    top: 0;
     left: 0;
     align-items: center;
     justify-content: left;
