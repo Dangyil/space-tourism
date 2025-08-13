@@ -1330,8 +1330,8 @@ body, html {
     display: block;
     align-self: flex-end;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 1.25rem;
+    right: 1.25rem;
 }
 .nav-links{
     display: flex;
@@ -1385,8 +1385,8 @@ body, html {
     width: 11.6rem;
     height: 1.9rem;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 1.25rem;
+    left: 1.25rem;
     align-items: center;
     justify-content: left;
 }
