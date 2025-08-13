@@ -1389,6 +1389,7 @@ body, html {
     left: 1.25rem;
     align-items: center;
     justify-content: left;
+    border: 1px solid green;
 }
 #logo {
     width: 1.7rem;
@@ -1405,7 +1406,6 @@ body, html {
     position: relative;
     align-items: center;
     justify-content: center;
-    border: 1px solid green;
 }
 /* home mobile view */
 #home {
