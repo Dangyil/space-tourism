@@ -1696,7 +1696,7 @@ body, html {
     display: flex;
     gap: 1.3rem;
     position: absolute;
-    top: 230px;
+    top: 10rem;
     width: 87.2vw;
     height: 1.1vh;
     border: none;
@@ -1706,8 +1706,8 @@ body, html {
 #box-15 {
     display: flex;
     position: absolute;
-    top: 440px;
-    left: 40px;
+    top: 28rem;
+    left: 2.5rem;
     width: 85.2vw;
     height: 12.7vh;
     justify-content: center;
