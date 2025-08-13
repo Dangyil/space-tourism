@@ -1375,7 +1375,7 @@ body, html {
 .container {
     border: none;
     width: 100vw;
-    height: 4.3rem;
+    height: 4rem;
     align-items: center;
     justify-content: center;
     border: 1px solid yellow;
@@ -1389,7 +1389,6 @@ body, html {
     left: 1.25rem;
     align-items: center;
     justify-content: left;
-    border: 1px solid green;
 }
 #logo {
     width: 1.7rem;
