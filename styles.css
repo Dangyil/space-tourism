@@ -1374,7 +1374,7 @@ body, html {
 }
 .container {
     border: none;
-    width: 23.4rem;
+    width: 100vw;
     height: 4.3rem;
     align-items: center;
     justify-content: center;
@@ -1398,7 +1398,7 @@ body, html {
 }
 .box-1 {
     display: flex;
-    width: 23.4rem;
+    width: 100vw;
     height: 45.6rem;
     position: relative;
     align-items: center;
@@ -1436,8 +1436,8 @@ body, html {
     justify-content: center
 }
 #explore-text {
-    width: 9rem;
-    height: 9rem;
+    width: 10rem;
+    height: 10rem;
     position: relative;
     font-size: 1.25rem;
 }
