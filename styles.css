@@ -1696,7 +1696,7 @@ body, html {
     display: flex;
     gap: 1.3rem;
     position: absolute;
-    top: 10rem;
+    top: 13rem;
     width: 87.2vw;
     height: 1.1vh;
     border: none;
@@ -1706,7 +1706,7 @@ body, html {
 #box-15 {
     display: flex;
     position: absolute;
-    top: 30rem;
+    top: 32rem;
     left: 2.5rem;
     width: 85.2vw;
     height: 12.7vh;
@@ -1742,7 +1742,6 @@ body, html {
     display: block; 
     width: 56.2vw;
     height: 35.7vh;
-    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
     mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 }
 /* technology mobile view */
