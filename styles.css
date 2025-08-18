@@ -784,7 +784,7 @@ body, html {
     margin: 0;
     width: 87%;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1024px) {
 .menu-toggle {
     display: none;
 }
